@@ -253,7 +253,7 @@ def page_login():
             submitted = st.form_submit_button("🔐 Sign In", use_container_width=True)
 
         if submitted:
-            if username == "admin" and password == "admin":
+            if username == "admin" and password == "Sudee123@":
                 st.session_state.logged_in = True
                 st.session_state.username  = username
                 go('dashboard')
